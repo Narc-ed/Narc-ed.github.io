@@ -1,7 +1,40 @@
-<html>
-  <head></head>
+<!DOCTYPE html>
+<html class="mdc-typography">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>NARC-ed © - Its No Mean Feat!</title>
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+<style>
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    padding-top: 200px;
+}
+</style>
+
+  </head>
   <body>
-    <h1>NARC-ed ©</h1>
-    <div>Its no mean feat</div>
+    <section class="hero">
+      <div>
+        <div class="mdc-typography--display4">NARC-ed ©</div>
+        <div dir="rtl" class="mdc-typography--subheading2">Its No Mean Feat</div>
+        <div class="mdc-typography--caption">&nbsp;</div>
+        <div class="mdc-typography--caption">
+          <a class="mdc-button" href="https://www.facebook.com/NARCedNOMeanFeat"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i> NARCedNOMeanFeat</a>
+          <a class="mdc-button" href="mailto:scuba@narc-ed.com"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i> scuba@narc-ed.com</a>
+          <a class="mdc-button" href="tel:+6596681214"><i class="fa fa-phone fa-2x" aria-hidden="true"></i> +65 9668 1214</a>
+        </div>
+    </div>
+    </section>
+
+
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.js"></script>
+    <script>mdc.autoInit()</script>
   </body>
 </html>
